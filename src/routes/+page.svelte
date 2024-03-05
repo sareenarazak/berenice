@@ -33,9 +33,9 @@
     }
   }
 </script>
-<!--54:36:24:16:12:9-->
 <h1>Welcome to Berenice</h1>
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" on:click={handleClick}>
+<button on:click={handleClick}>Start</button>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <circle cx="150" cy="100" r="30" fill="black"/>
   <Planet name="bat" color="blue" radius="10" orbits="54" distance="40" time="{timeInput}"/>
   <Planet name="cap" color="cyan" radius="13" orbits="36" distance="50" time="{timeInput}"/>

@@ -13,13 +13,14 @@
  	$:cy = calculateY(time);
 
  function calculateX(time) {
-	 return  Math.cos((time * TAU * orbits) / CYCLE_TIME) * distance + 150 ;
+	 return  Math.cos((time * TAU * orbits) / CYCLE_TIME) * distance + 500 ;
  }
 
  function calculateY(time) {
-	 return  Math.sin((time * TAU * orbits) / CYCLE_TIME) * distance + 100 ;
+	 return  Math.sin((time * TAU * orbits) / CYCLE_TIME) * distance + 500 ;
 
  }
 </script>
 
 <circle id="{name}" cx="{cx}" cy="{cy}" r="{radius}" fill="{color}" />
+<circle cx="500" cy="500" r="{distance}" stroke="black" fill="none" />

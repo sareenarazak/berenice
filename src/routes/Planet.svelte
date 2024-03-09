@@ -22,4 +22,4 @@
  }
 </script>
 
-<circle cx="{cx}" cy="{cy}" r="{radius}" fill="{color}" />
+<circle id="{name}" cx="{cx}" cy="{cy}" r="{radius}" fill="{color}" />

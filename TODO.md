@@ -1,5 +1,5 @@
 ### Next 
-* Bundling / production-ize 
+~~* Bundling / production-ize~~ 
 * Clean up the UI 
 * Make orbits ellipticals 
 * Animate resonance

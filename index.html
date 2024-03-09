@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CI7PrQ_I.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BpZjKR5_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.vl2ZjdeE.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.DKc7cuwG.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BBH-d_4u.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.DEN6YC20.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-qm8dfc">Welcome to Berenice</h1> <button data-svelte-h="svelte-1ar6fo0">Start</button> <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="100" r="30" fill="black"></circle><circle cx="190" cy="100" r="10" fill="blue"></circle><circle cx="200" cy="100" r="13" fill="cyan"></circle><circle cx="210" cy="100" r="15" fill="darkgreen"></circle><circle cx="220" cy="100" r="8" fill="teal"></circle><circle cx="240" cy="100" r="16" fill="firebrick"></circle><circle cx="250" cy="100" r="20" fill="goldenrod"></circle></svg> <label for="time" data-svelte-h="svelte-1a10ev8">Enter time</label> <input type="range" id="time" min="0" max="10000" value="0"> <label for="angle" data-svelte-h="svelte-15sdmvq">Enter angle</label> 
+			
+			<script>
+				{
+					__sveltekit_13t5zsi = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CI7PrQ_I.js"),
+						import("./_app/immutable/entry/app.vl2ZjdeE.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+	</body>
+</html>

@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+		"gh-pages": "npm run build && npx gh-pages -d build",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "npm run test:unit",
@@ -15,6 +16,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^8.56.0",
@@ -32,5 +34,8 @@
 		"vite": "^5.0.3",
 		"vitest": "^1.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"gh-pages": "^6.1.1"
+	}
 }

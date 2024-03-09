@@ -5,6 +5,8 @@
 * Animate resonance
 * Change js code to TS
 * Fix ESLint errors 
+* Fav icon 
+* Remove test framework
 
 ### Accessibility
 ~~* fix svg aria role~~ 

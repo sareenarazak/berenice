@@ -36,7 +36,7 @@
 </script>
 <main>
 	<svg  viewBox="0 0 1000 1000"  xmlns="http://www.w3.org/2000/svg">
-		<circle id="HD 110067" cx="500" cy="500" r="30" fill="black" />
+		<circle id="HD 110067" cx="500" cy="500" r="50" fill="#fdb813" />
 		<Planet name="bat" color="blue" radius="22" orbits="54" distance="124" time="{timeInput}" />
 		<Planet name="cap" color="cyan" radius="24" orbits="36" distance="194" time="{timeInput}" />
 		<Planet name="drum" color="darkgreen" radius="29" orbits="24" distance="264" time="{timeInput}" />

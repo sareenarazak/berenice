@@ -47,18 +47,32 @@
 </main>
 <footer>
 	<button on:click={handleClick}>{buttonText}</button>
-	<input type="range" id="time" min="0" max="10000" bind:value="{timeInput}" />
+	<input class="slider" type="range" id="time" min="0" max="10000" bind:value="{timeInput}" />
 </footer>
 
 <style>
-	main {
-			background: purple;
-			width: 90vmin;
-			height: 90vmin;
-	}
+		main {
+				background: purple;
+				width: calc(100vmin - 50px);
+				height: calc(100vmin - 50px);
+		}
 
-	svg {
-			width: 100%;
-			height: 100%;
-	}
+		svg {
+				width: 100%;
+				height: 100%;
+		}
+
+		footer {
+				height: 50px;
+				background: aquamarine;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+		}
+
+		.slider {
+				width: 100%;
+				margin-left: 10px;
+		}
 </style>

@@ -37,12 +37,12 @@
 <main>
 	<svg  viewBox="0 0 1000 1000"  xmlns="http://www.w3.org/2000/svg">
 		<circle id="HD 110067" cx="500" cy="500" r="30" fill="black" />
-		<Planet name="bat" color="blue" radius="10" orbits="54" distance="40" time="{timeInput}" />
-		<Planet name="cap" color="cyan" radius="13" orbits="36" distance="50" time="{timeInput}" />
-		<Planet name="drum" color="darkgreen" radius="15" orbits="24" distance="60" time="{timeInput}" />
-		<Planet name="each" color="teal" radius="8" orbits="16" distance="70" time="{timeInput}" />
-		<Planet name="fine" color="firebrick" radius="16" orbits="12" distance="90" time="{timeInput}" />
-		<Planet name="gust" color="goldenrod" radius="20" orbits="9" distance="100" time="{timeInput}" />
+		<Planet name="bat" color="blue" radius="22" orbits="54" distance="124" time="{timeInput}" />
+		<Planet name="cap" color="cyan" radius="24" orbits="36" distance="194" time="{timeInput}" />
+		<Planet name="drum" color="darkgreen" radius="29" orbits="24" distance="264" time="{timeInput}" />
+		<Planet name="each" color="teal" radius="19" orbits="16" distance="334" time="{timeInput}" />
+		<Planet name="fine" color="firebrick" radius="26" orbits="12" distance="404" time="{timeInput}" />
+		<Planet name="gust" color="goldenrod" radius="26" orbits="9" distance="474" time="{timeInput}" />
 	</svg>
 </main>
 <footer>

@@ -46,7 +46,7 @@
 	</svg>
 </main>
 <footer>
-	<button on:click={handleClick}>{buttonText}</button>
+	<button class="control" on:click={handleClick}>{buttonText}</button>
 	<input class="slider" type="range" id="time" min="0" max="10000" bind:value="{timeInput}" />
 </footer>
 
@@ -68,11 +68,14 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				padding: 10px;
 		}
 
 		.slider {
 				width: 100%;
-				margin-left: 10px;
+				margin: 10px;
+		}
+
+		.control {
+				margin: 10px;
 		}
 </style>

@@ -1,6 +1,6 @@
 ### Next 
 ~~* Bundling / production-ize~~ 
-* Clean up the UI 
+~~* Clean up the UI~~ 
   * Layout 
   * Edit the planet orbits / locations 
   * Mobile rendering 

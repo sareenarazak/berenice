@@ -9,9 +9,7 @@ For more context check out https://exoplanets.nasa.gov/news/1771/discovery-alert
 Production
 ----------
 
-TBDeployed
-
-~~[GitHub Pages](https://jessechen.github.io/berenice)~~
+https://sareenarazak.github.io/berenice/
 
 Dev Setup
 ---------
@@ -23,7 +21,7 @@ npm run dev
 
 Deployment
 ----------
-
+`npm run gh-pages`
 
 License
 -------

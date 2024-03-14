@@ -22,5 +22,5 @@
  }
 </script>
 
-<circle id="{name}" cx="{cx}" cy="{cy}" r="{radius}" fill="{color}" />
 <circle cx="500" cy="500" r="{distance}" stroke="black" fill="none" />
+<circle id="{name}" cx="{cx}" cy="{cy}" r="{radius}" fill="{color}" />

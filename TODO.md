@@ -2,7 +2,7 @@
 ~~* Bundling / production-ize~~ 
 ~~* Clean up the UI~~ 
   ~~* Layout~~ 
-  * Edit the planet orbits / locations 
+  ~~* Edit the planet orbits / locations~~ 
   * Mobile rendering 
 * Make orbits ellipticals 
 * Animate resonance

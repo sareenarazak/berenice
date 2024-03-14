@@ -42,7 +42,7 @@
 		<Planet name="drum" color="darkgreen" radius="29" orbits="24" distance="264" time="{timeInput}" />
 		<Planet name="each" color="teal" radius="19" orbits="16" distance="334" time="{timeInput}" />
 		<Planet name="fine" color="firebrick" radius="26" orbits="12" distance="404" time="{timeInput}" />
-		<Planet name="gust" color="goldenrod" radius="26" orbits="9" distance="474" time="{timeInput}" />
+		<Planet name="gust" color="gainsboro" radius="26" orbits="9" distance="474" time="{timeInput}" />
 	</svg>
 </main>
 <footer>
